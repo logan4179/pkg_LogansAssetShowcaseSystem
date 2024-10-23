@@ -1,0 +1,18 @@
+{
+  "name": "com.loganland.logansassetshowcasesystem",
+  "version": "1.0.0",
+  "displayName": "Logans Asset Showcase System",
+  "description": "Allows easy setup of a showcase of 3d assets with camera orbit/zoom controls.",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "Movement",
+    "Physics"
+  ],
+  "author": {
+    "name": "Logan Jarrett",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  }
+}
