@@ -21,6 +21,9 @@ namespace LogansAssetShowcaseSystem
         private float cachedMouseX, cachedMouseY;
         private float dist_mouseFollow = 1f;
 
+        [Header("STATS")]
+        [SerializeField] private float Speed_rotate = 2f;
+
 		private void Awake()
 		{
 			Instance = this;
@@ -63,7 +66,7 @@ namespace LogansAssetShowcaseSystem
 			if ( FocusedEntry != null && _camera != null )
             {
 				_camera.UpdateCamera(
-                    cachedMouseX, cachedMouseY, Time.deltaTime
+                    cachedMouseX * Speed_rotate, cachedMouseY * Speed_rotate, Time.deltaTime
                     );
             }
 

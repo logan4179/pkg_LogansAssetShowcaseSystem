@@ -1,6 +1,6 @@
 {
   "name": "com.loganland.logansassetshowcasesystem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Logans Asset Showcase System",
   "description": "Allows easy setup of a showcase of 3d assets with camera orbit/zoom controls.",
   "documentationUrl": "https://example.com/",
