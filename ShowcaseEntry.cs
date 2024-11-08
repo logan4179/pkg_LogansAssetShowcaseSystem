@@ -137,7 +137,13 @@ namespace LogansAssetShowcaseSystem
                 Debug.LogError($"{nameof(FocalPoint)} reference was null for {nameof(ShowcaseEntry)}: '{name}'!");
             }
 
-            return amKosher;
+            if ( string.IsNullOrEmpty(Category) )
+            {
+                amKosher = false;
+				Debug.LogError($"{nameof(Category)} string was empty for {nameof(ShowcaseEntry)}: '{name}'!");
+			}
+
+			return amKosher;
         }
 	}
 }
